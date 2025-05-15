@@ -62,13 +62,14 @@ The ROUGE-L scores range from **0.25 to 0.28**, which is normal and expected for
 This validates that **`chain_of_thought`** prompting is more effective for this task than few-shot or one-shot approaches — even without tuning the model.
 
 ## Project Structure
-.
-├── config.py           # Model & dataset settings
-├── prompts.py          # Prompt templates
-├── runner.py           # Main execution file
-├── requirements.txt    # Dependencies
-├── README.md           # This file
-└── results/            # Outputs (ignored in .gitignore)
+
+- `config.py` – Model & dataset settings
+- `prompts.py` – Prompt templates
+- `runner.py` – Main execution file
+- `requirements.txt` – Python dependencies
+- `README.md` – Project documentation
+- `results/` – Output folder (ignored by `.gitignore`)
+
 
 ## Technologies Used
 - Flan-T5 (from Hugging Face)
